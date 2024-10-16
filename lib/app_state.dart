@@ -1,5 +1,5 @@
 import 'package:english_words/english_words.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 
 class AppState extends ChangeNotifier {
   var current = WordPair.random();
